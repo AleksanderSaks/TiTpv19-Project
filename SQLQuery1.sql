@@ -1,0 +1,1 @@
+﻿SELECT Pet.Name. PetTypeName FROM Pet INNER JOIN PetType ON Pet.TypeId = PetType.Id WHERE PetType.Id = 2
